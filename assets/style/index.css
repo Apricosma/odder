@@ -96,6 +96,7 @@ ul {
     background-color: var(--app-tint-light-bg);
     min-height: 1000px;
     padding: 20px 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.281);
 }
 
 /* - - - - - - - - - - - - */
@@ -208,6 +209,7 @@ textarea {
     margin-top: 25px;
     border-radius: 0 25px 0 0;
     padding: 25px 25px 4px 25px;
+    color: #12183d;
 }
 
 .user-post .user-image {
