@@ -21,12 +21,6 @@ const options = {
     mode: 'cors'
 };
 
-// fetch(url, options)
-//     .then(response => response.json())
-//     .then(json => json.results)
-//     .then(console.log)
-//     .catch(console.error)
-
 async function getUsers() {
     try {
         const users = await fetch(url, options);
