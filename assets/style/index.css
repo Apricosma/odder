@@ -2,6 +2,7 @@
 
 :root {
     --app-light-bg: #f2f4f6;
+    --app-tint-light-bg: #dfdede;
     --app-red: #ff3c57;
     --app-green: #33ab4e;
     --app-purple: #833cff;
@@ -36,6 +37,7 @@ header {
     background-color: var(--app-light-bg);
     height: 75px;
     padding: 12px 10px;
+    border-radius: 0 25px 0 0;
 }
 
 header i {
@@ -82,4 +84,63 @@ ul {
 
 .float-right {
     float: right;
+}
+
+/* - - - - - - - - - - - - */
+/* Body section            */
+/* - - - - - - - - - - - - */
+
+.main-panel {
+    background-color: var(--app-tint-light-bg);
+    min-height: 1680px;
+    padding: 20px 20px;
+}
+
+/* - - - - - - - - - - - - */
+/* User pane               */
+/* - - - - - - - - - - - - */
+
+.user-panel {
+    background-color: var(--app-light-bg);
+    width: 280px;
+    height: 480px;
+    border-radius: 0 25px 0 0;
+}
+
+/* - - - - - - - - - - - - */
+/* Post-section            */
+/* - - - - - - - - - - - - */
+
+.post-section {
+    min-height: 680px;
+    width: 625px;
+    background-color: var(--app-tint-light-bg);
+    position: absolute;
+    top: 120px;
+    left: 635px;
+    padding: 0 25px;
+}
+
+.new-post {
+    background-color: var(--app-light-bg);
+    width: 575px;
+    height: 200px;
+    border-radius: 0 25px 0 0;
+}
+
+.test-post {
+    background-color: var(--app-light-bg);
+    width: 575px;
+    min-height: 400px;
+    margin-top: 25px;
+    border-radius: 0 25px 0 0;
+}
+
+.suggested-users {
+    background-color: var(--app-light-bg);
+    width: 280px;
+    height: 500px;
+    position: absolute;
+    right: 365px;
+    top: 120px;
 }
