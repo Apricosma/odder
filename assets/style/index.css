@@ -81,6 +81,7 @@ ul {
 
 .user-image-small {
     width: 55px;
+    border-radius: 50%;
 }
 
 .float-right {
@@ -93,7 +94,7 @@ ul {
 
 .main-panel {
     background-color: var(--app-tint-light-bg);
-    min-height: 1680px;
+    min-height: 1000px;
     padding: 20px 20px;
 }
 
@@ -106,6 +107,41 @@ ul {
     width: 280px;
     height: 480px;
     border-radius: 0 25px 0 0;
+    text-align: center;
+    padding: 25px;
+}
+
+.big-profile-image {
+    border-radius: 50%;
+}
+
+.followers, .followers-value {
+    float: left;
+}
+
+.following, .following-value {
+    float: right;
+}
+
+.followers, .following, .views {
+    margin-top: 25px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #2e2e2e27;
+}
+
+.metrics-wrapper {
+    margin-top: 10px;
+    padding: 0 15px;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.fa-envelope {
+    position: absolute;
+    font-size: 48px;
+    color: #0084ff;
+    left: 575px;
+    top: 128px;
 }
 
 /* - - - - - - - - - - - - */
@@ -138,6 +174,7 @@ ul {
     font-size: 28px;
     margin-top: 5px;
     margin-left: 10px;
+    color: #12183d;
 }
 
 .new-post input[type=button] {
@@ -162,14 +199,63 @@ textarea {
     border-radius: 0 25px 0 0;
 }
 
-.test-post {
+/* Existing posts */
+
+.user-post {
     background-color: var(--app-light-bg);
     width: 575px;
     min-height: 400px;
     margin-top: 25px;
     border-radius: 0 25px 0 0;
+    padding: 25px 25px 4px 25px;
 }
 
+.user-post .user-image {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.text-post-wrapper :not(:first-child) {
+    margin-top: 10px;
+}
+
+.user-post .user-image {
+    width: 78px;
+    float: left;
+}
+
+.user-name {
+    margin-top: 10px;
+}
+
+h5 {
+    color: rgba(17, 17, 17, 0.452);
+}
+
+.text-post-wrapper {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+    color: #12183d;
+    margin-top: 5px;
+}
+
+.fa-reply {
+    margin-top: 8px;
+    color: #0084ff;
+}
+
+.reply {
+    font-size: 16px;
+    float: left;
+    line-height: 50px;
+    margin-right: 5px;
+}
 /* Suggested users */
 
 .suggested-users {
