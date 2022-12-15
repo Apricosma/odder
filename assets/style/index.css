@@ -1,0 +1,77 @@
+@import "./reset.css";
+
+:root {
+    --app-light-bg: #f2f4f6;
+    --app-red: #ff3c57;
+    --app-green: #33ab4e;
+    --app-purple: #833cff;
+    --app-orange: #ff833c;
+    --app-blue: #1f2969;
+    --app-blue-hover: #364ee6;
+}
+    
+body {
+    background-color: var(--app-blue);
+}
+    
+.container {
+    width: min(100% - 30px, 1280px);
+    margin-inline: auto;
+}
+
+.wrapper {
+    padding: 25px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* - - - - - - - - - - - - */
+/* Header                  */
+/* - - - - - - - - - - - - */
+
+header {
+    background-color: var(--app-light-bg);
+    height: 75px;
+    padding: 12px 10px;
+}
+
+header i {
+    font-size: 48px;
+    color: rgb(0, 132, 255);
+}
+
+header h1 {
+    margin-left: 10px;
+}
+
+header input {
+    height: 35px;
+    width: 175px;
+    border-radius: 25px;
+    background-color: var(--app-light-bg);
+    border: 1px solid #131b4e8f;
+    margin: 7px 25px 0 0;
+    padding: 0 15px;
+    font-size: 20px;
+}
+
+ul li {
+    list-style: none;
+    font-size: 22px;
+    padding: 8px 10px;
+}
+
+.navlist {
+    justify-content: space-between;
+}
+
+.user-image-small {
+    width: 55px;
+}
+
+.float-right {
+    float: right;
+}
