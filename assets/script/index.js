@@ -56,7 +56,7 @@ async function printUsers() {
 
             let userLocation = document.createElement('p');
             element.appendChild(userLocation);
-            userLocation.innerHTML = `${user.location.city}`
+            userLocation.innerHTML = `<i class="fa-solid fa-location-dot"></i> ${user.location.city}`
         });
     } catch(error) {
         console.log(error);

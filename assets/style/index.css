@@ -136,14 +136,17 @@ ul {
     border-radius: 0 25px 0 0;
 }
 
+/* Suggested users */
+
 .suggested-users {
-    background-color: var(--app-light-bg);
+    /* background-color: var(--app-light-bg); */
     width: 280px;
     height: 500px;
     position: absolute;
     right: 365px;
     top: 120px;
     padding: 10px;
+    color: #0d133a83;
 }
 
 .suggested-users > div {
@@ -155,6 +158,10 @@ ul {
     justify-content: start;
     grid-template-columns: auto 1fr;
     margin-top: 10px;
+}
+
+.user-div h2 {
+    color: #12183d;
 }
 
 .user-div p {
@@ -176,4 +183,9 @@ ul {
     font-size: 20px;
     text-align: left;
     margin-left: 10px;
+}
+
+.suggested-users > h2 {
+    font-size: 22px;
+    margin-left: 0;
 }
