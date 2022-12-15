@@ -21,10 +21,7 @@ const userCredentials = {
 }
 
 localStorage.setItem('login', JSON.stringify(userCredentials));
-
 let loginInfo = JSON.parse(localStorage.getItem('login'));
-console.log(loginInfo);
-console.log(loginInfo.username);
 
 onEvent('click', loginButton, function() {
 

@@ -143,4 +143,37 @@ ul {
     position: absolute;
     right: 365px;
     top: 120px;
+    padding: 10px;
+}
+
+.suggested-users > div {
+    margin-top: 15px;
+}
+
+.user-div {
+    display: grid;
+    justify-content: start;
+    grid-template-columns: auto 1fr;
+    margin-top: 10px;
+}
+
+.user-div p {
+    position: absolute;
+    left: 69px;
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+.suggested-users img {
+    border-radius: 50%;
+}
+
+.suggested-users h2, .suggested-users p {
+    text-align: center;
+}
+
+.suggested-users h2 {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 10px;
 }
