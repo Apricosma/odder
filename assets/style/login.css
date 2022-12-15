@@ -91,4 +91,15 @@ article p {
 .log-in {
     background-color: var(--app-blue-hover);
     color: var(--app-light-bg);
+    margin-bottom: 2px;
+}
+
+.sign-up {
+    margin-bottom: 0;
+}
+
+.error {
+    color: var(--app-red);
+    font-size: 28px;
+    text-align: center;
 }
