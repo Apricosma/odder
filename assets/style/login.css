@@ -1,0 +1,105 @@
+@import "./reset.css";
+
+:root {
+    --app-light-bg: #f2f4f6;
+    --app-tint-light-bg: #dfdede;
+    --app-red: #ff3c57;
+    --app-green: #33ab4e;
+    --app-purple: #833cff;
+    --app-orange: #ff833c;
+    --app-blue: #1f2969;
+    --app-blue-hover: #3950e9;
+    --app-text-color: rgb(35, 28, 99);
+}
+    
+body {
+    background-color: var(--app-blue);
+}
+    
+.container {
+    width: min(100% - 30px, 1280px);
+    margin-inline: auto;
+}
+
+/* - - - - - - - - - - */
+/* Login               */
+/* - - - - - - - - - - */
+
+.login-box {
+    background-color: var(--app-light-bg);
+    max-width: 1400px;
+    height: 720px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 100px;
+    border-radius: 0 25px 0 25px;
+    color: var(--app-text-color);
+    box-shadow: 1px 3px 30px rgba(0, 0, 0, 0.384);
+}
+
+img {
+    float: left;
+}
+
+.login {
+    margin-left: 750px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+form input {
+    margin-bottom: 25px;
+    margin-top: 8px;
+    height: 50px;
+    border-radius: 15px;
+    border: 1px solid #1f29696c;
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+article:first-of-type {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+article:last-of-type {
+    margin-top: 25px;
+}
+
+article h1 {
+    font-size: 38px;
+    color: #213d69;
+}
+
+h2 {
+    color: #213d69;
+}
+
+article p {
+    font-size: 20px;
+    color: #252c3a;
+}
+
+.log-in {
+    background-color: var(--app-blue-hover);
+    color: var(--app-light-bg);
+    margin-bottom: 2px;
+}
+
+.sign-up {
+    margin-bottom: 0;
+}
+
+.error {
+    color: var(--app-red);
+    font-size: 28px;
+    text-align: center;
+}
