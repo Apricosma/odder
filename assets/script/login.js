@@ -60,3 +60,13 @@ onEvent('click', loginButton, function() {
         location.href = 'home.html';
     }
 })
+
+// on enter IF text box is active, click login button
+userNameInput.addEventListener('keypress', function(event) {
+    if (event.key === 'Enter')
+        loginButton.click();
+})
+passwordInput.addEventListener('keypress', function(event) {
+    if (event.key === 'Enter')
+        loginButton.click();
+})
