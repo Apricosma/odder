@@ -19,7 +19,6 @@ const userCredentials = {
     username: 'samanthawebdev',
     password: 'web_developer'
 }
-
 localStorage.setItem('login', JSON.stringify(userCredentials));
 let loginInfo = JSON.parse(localStorage.getItem('login'));
 
