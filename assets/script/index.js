@@ -11,7 +11,7 @@ function onEvent(event, selector, callback) {
 let suggestions = select('.user-suggestion');
 let suggestionContainer = select('.suggested-users');
 
-const url = 'https://randomuser.me/api/?nat=CA&results=5';
+const url = 'https://randomuser.me/api/?nat=CA&results=10';
 
 const options = {
     method: 'GET',
