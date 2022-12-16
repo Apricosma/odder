@@ -110,6 +110,7 @@ ul {
     border-radius: 0 25px 0 0;
     text-align: center;
     padding: 25px;
+    box-shadow: 0px 0px 10px #81818144;
 }
 
 .big-profile-image {
@@ -145,6 +146,10 @@ ul {
     top: 128px;
 }
 
+.fa-envelope:hover {
+    color: #3b9ffd
+}
+
 /* - - - - - - - - - - - - */
 /* Post-section            */
 /* - - - - - - - - - - - - */
@@ -164,6 +169,7 @@ ul {
     width: 575px;
     height: 200px;
     border-radius: 0 25px 0 0;
+    box-shadow: 0px 1px 15px #81818138;
 }
 
 .bottom-wrapper {
@@ -175,7 +181,7 @@ ul {
     font-size: 28px;
     margin-top: 5px;
     margin-left: 10px;
-    color: #12183d;
+    color: #0084ff;
 }
 
 .new-post input[type=button] {
@@ -210,20 +216,18 @@ textarea {
     border-radius: 0 25px 0 0;
     padding: 25px 25px 4px 25px;
     color: #12183d;
+    box-shadow: 0px 1px 15px #81818138;
 }
 
 .user-post .user-image {
     border-radius: 50%;
     margin-right: 10px;
+    width: 64px;
+    float: left;
 }
 
 .text-post-wrapper :not(:first-child) {
     margin-top: 10px;
-}
-
-.user-post .user-image {
-    width: 78px;
-    float: left;
 }
 
 .user-name {
@@ -243,7 +247,7 @@ h5 {
     display: flex;
     justify-content: space-between;
     font-size: 28px;
-    color: #12183d;
+    color: #0084ff;
     margin-top: 5px;
 }
 
@@ -258,17 +262,23 @@ h5 {
     line-height: 50px;
     margin-right: 5px;
 }
+
+.fa-reply:hover, .fa-plus:hover, .fa-folder-plus:hover, .fa-file-image:hover,
+.fa-heart:hover, .fa-arrow-up-right-from-square:hover {
+    color: #54abfd
+}
 /* Suggested users */
 
 .suggested-users {
     /* background-color: var(--app-light-bg); */
     width: 280px;
-    height: 500px;
+    height: 380px;
     position: absolute;
     right: 365px;
     top: 120px;
     padding: 10px;
     color: #0d133a83;
+    border-bottom: 1px solid #acacac80;
 }
 
 .suggested-users > div {
